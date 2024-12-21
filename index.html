@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <h2>J.S Error Handling string methods.(Here x=25 and y=35)</h2>
+
+    <p>Here let us string "x"+"y".Watch this function
+     <p id="search_result"></p>
+    <p id="replace_result"></p>
+    <p id="string_result"></p>
+
+    <script>
+      var str = "Sayan sir is a good teacher"; 
+      var search_position = str.search("is");
+      var txt = str.replace("Sayan sir" , "Mr.X ")
+      var x = 25;;
+      var y = 35;
+      document.getElementById("search_result").innerHTML = search_position;
+      document.getElementById("replace_result").innerHTML = txt;
+
+      document.getElementById("string_result").innerHTML = String(x) + String(y); // Does not add because it is a string it concatenates 
+
+    </script>
+  </body>
+</html>
